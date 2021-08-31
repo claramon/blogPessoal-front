@@ -5,3 +5,4 @@ export const environment = {
   id: 0,
   foto: ''
 };
+//toda vez que da um f5 em uma single page application, o environment é apagado, desloga => o token some
