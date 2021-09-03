@@ -19,7 +19,7 @@ export class TemaService {
     return this.http.get<Tema[]>('https://blogdaclara.herokuapp.com/tema', this.token) //pega o tema que declarei acima
   }
 
-  gitByIdTema(id: number): Observable<Tema> {
+  getByIdTema(id: number): Observable<Tema> {
     return this.http.get<Tema>(`https://blogdaclara.herokuapp.com/tema/${id}`, this.token)
   }
 
